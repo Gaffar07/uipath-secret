@@ -8,7 +8,7 @@
 6)to add picture from folder to word use word application scope first->install uipath.word activity first...now use replace text or picture and supply file name in scope...
 7)to compare two images in uipath install uipathteam.imagecomparison.activities
 8)to read mail from outlook take get outlook message activity 1) provide account and folder of mail and and store the result use 
-  for each row and give system.net.mail as data type for foreachrow
+  for each row and give system.net.mail.mailmessage as data type for foreachrow
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
