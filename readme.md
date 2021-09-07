@@ -9,6 +9,9 @@
 7)to compare two images in uipath install uipathteam.imagecomparison.activities
 8)to read mail from outlook take get outlook message activity 1) provide account and folder of mail and and store the result use 
   for each row and give system.net.mail.mailmessage as data type for foreachrow
+  
+9)DateTime.ParseExact(inputdate, "MM/dd/yyyy hh:mm:ss" , System.Globalization.CultureInfo.InvariantCulture).ToString("dd/MM/yyyy")
+  ->converts any date format to specified format
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
