@@ -12,6 +12,8 @@
   
 9)DateTime.ParseExact(inputdate, "MM/dd/yyyy hh:mm:ss" , System.Globalization.CultureInfo.InvariantCulture).ToString("dd/MM/yyyy")
   ->converts any date format to specified format
+  
+10)to downgrade uipath version go to 1) click on project 2)right click on uipath.system.activities-?> manage 3)select existing package4) from the version dropdown select the old version and click on update youor tool will automatically downgraded to your desired version  
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
