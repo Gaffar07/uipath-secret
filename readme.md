@@ -15,6 +15,9 @@
   
 10)to downgrade uipath version go to 1) click on project 2)right click on uipath.system.activities-?> manage 3)select existing package4) from the version dropdown select the old version and click on update youor tool will automatically downgraded to your desired version  
 
+11) api: get the response and desialize the response and get the reslt in newtonsoft.json.linq.oject
+12) iterate  the object and read the top level attribute by calling selecttoken method
+
 
 to create a custom package you need to have a visual studio and nuget package explorer
 1)go to visual studio and create a project->visual C# and select class library
