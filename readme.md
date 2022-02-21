@@ -17,6 +17,12 @@
 
 11) api: get the response and desialize the response and get the reslt in newtonsoft.json.linq.oject
 12) iterate  the object and read the top level attribute by calling selecttoken method
+13) -------------------------------------------------------------------------------------------------
+14) mobile automation
+  1)android studio 2)nodejs 3) appium uipath
+  2)give path of sdk, platform-tools and tools to enviroment variable if sdk not found than open andrid studio->files-?setting-?android sdk
+  3) give udid and devicename in capability seperately
+  4) give application name and apk file 
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
