@@ -23,6 +23,8 @@
   2)give path of sdk, platform-tools and tools to enviroment variable if sdk not found than open andrid studio->files-?setting-?android sdk
   3) give udid and devicename in capability seperately
   4) give application name and apk file 
+  5) ---------------------------------------------------------------------------
+  6) to close the application use the previous connection in manager other apps and use connection  as a input and set close to always and selecct terminate option
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
