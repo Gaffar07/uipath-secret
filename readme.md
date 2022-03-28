@@ -25,6 +25,7 @@
   4) give application name and apk file 
   5) ---------------------------------------------------------------------------
   6) to close the application use the previous connection in manager other apps and use connection  as a input and set close to always and selecct terminate option
+  7) dictionary configDic(CurrentRow("Name").ToString.Trim) + CurrentRow("Value")
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
