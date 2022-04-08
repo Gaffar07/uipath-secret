@@ -26,6 +26,8 @@
   5) ---------------------------------------------------------------------------
   6) to close the application use the previous connection in manager other apps and use connection  as a input and set close to always and selecct terminate option
   7) dictionary configDic(CurrentRow("Name").ToString.Trim) + CurrentRow("Value")
+  8) (From c In dt1.Columns.Cast(Of DataColumn).Select(Function (x) x.ColumnName).toArray
+Select Tuple.Create(c, dt1.Rows(0)(c))).ToDictionary(Of String, Object)(Function (t) t.item1, Function (t) t.Item2 )
 
 
 to create a custom package you need to have a visual studio and nuget package explorer
